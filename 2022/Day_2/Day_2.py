@@ -1,3 +1,4 @@
+# python3.x
 with open('my_input.txt','r') as o:
     tmp = o.readlines()
 
