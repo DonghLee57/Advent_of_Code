@@ -43,6 +43,6 @@ Finally, a single crate is still moved from stack 1 to stack 2, but now it's cra
 [M] [C] [P]
  1   2   3
 ```
-In this example, the CrateMover 9001 has put the crates in a totally different order: `**MCD**`.
+In this example, the CrateMover 9001 has put the crates in a totally different order: `MCD`.
 
 Before the rearrangement process finishes, update your simulation so that the Elves know where they should stand to be ready to unload the final supplies. **After the rearrangement procedure completes, what crate ends up on top of each stack?**
