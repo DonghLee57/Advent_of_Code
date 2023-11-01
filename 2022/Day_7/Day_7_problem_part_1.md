@@ -65,7 +65,7 @@ Given the commands and output in the example above, you can determine that the f
     - k (file, size=7214296)
 ```
 
-Here, there are four directories: / (the outermost directory), a and d (which are in /), and e (which is in a). These directories also contain files of various sizes.
+Here, there are four directories: `/` (the outermost directory), `a` and `d` (which are in `/`), and `e` (which is in `a`). These directories also contain files of various sizes.
 
 Since the disk is full, your first step should probably be to find directories that are good candidates for deletion. To do this, you need to determine the total size of each directory. The total size of a directory is the sum of the sizes of the files it contains, directly or indirectly. (Directories themselves do not count as having any intrinsic size.)
 
@@ -75,6 +75,6 @@ The total sizes of the directories above can be found as follows:
 - Directory `d` has total size **24933642**.
 - As the outermost directory, `/` contains every file. Its total size is **48381165**, the sum of the size of every file.
 
-To begin, find all of the directories with a total size of **at most 100000**, then calculate the sum of their total sizes. In the example above, these directories are a and e; the sum of their total sizes is `95437` (94853 + 584). (As in this example, this process can count files more than once!)
+To begin, find all of the directories with a total size of **at most 100000**, then calculate the sum of their total sizes. In the example above, these directories are `a` and `e`; the sum of their total sizes is `95437` (94853 + 584). (As in this example, this process can count files more than once!)
 
 Find all of the directories with a total size of at most 100000. **What is the sum of the total sizes of those directories?**
